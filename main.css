@@ -1,1 +1,15 @@
+<<<<<<< HEAD
 /* # sourceMappingURL=main.css.map */
+=======
+
+
+.desktop {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 1600px;
+  height: 4350px;
+  background: linear-gradient(180deg, #f6fafd 0%, #ffffff 19.4%);
+}
+
+>>>>>>> 8410c17daf155e5983ad33285320138c18f615f4
