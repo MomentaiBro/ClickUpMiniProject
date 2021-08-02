@@ -1,7 +1,4 @@
-* {
-  padding: 0;
-  margin: 0;
-}
+
 
 .desktop {
   position: relative;
@@ -12,76 +9,3 @@
   background: linear-gradient(180deg, #f6fafd 0%, #ffffff 19.4%);
 }
 
-.block__one {
-  position: absolute;
-  width: 1248px;
-  height: 754px;
-  left: 240px;
-  top: 47px;
-}
-
-.top {
-  position: absolute;
-  width: 1120px;
-  height: 60px;
-  left: 240px;
-  top: 47px;
-}
-
-.logo {
-  position: absolute;
-  width: 49px;
-  height: 35px;
-  left: 240px;
-  top: 59px;
-}
-
-.rectangle_33 {
-  position: absolute;
-  width: 20px;
-  height: 35px;
-  left: 269px;
-  top: 59px;
-
-  background: #f063b8;
-  border-radius: 20px;
-}
-.rectangle_32 {
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  left: 240px;
-  top: 74px;
-
-  background: #9c69e2;
-  border-radius: 20px;
-}
-
-.block__two {
-  position: absolute;
-  width: 1117px;
-  height: 560px;
-  left: 240px;
-  top: 903.18px;
-}
-.block__three {
-  position: absolute;
-  width: 1137.28px;
-  height: 1026px;
-  left: 220px;
-  top: 1613px;
-}
-.block__four {
-  position: absolute;
-  width: 1600px;
-  height: 613px;
-  left: 0px;
-  top: 3648px;
-}
-.block__five {
-  position: absolute;
-  width: 1118px;
-  height: 709px;
-  left: 242px;
-  top: 2789px;
-}
