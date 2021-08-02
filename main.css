@@ -27,7 +27,6 @@ body {
 .block {
   display: flex;
   height: 100vh;
-  border: 1px solid pink;
   width: 100%;
 }
 
@@ -214,6 +213,34 @@ body {
   flex-flow: column;
   justify-content: flex-start;
   align-items: center;
+  margin-top: 102px;
+  margin-bottom: 140px;
+}
+
+.sq1_bg {
+  background: rgba(104, 201, 186, 0.1);
+  background-image: url("./img/Vector57.png");
+  background-position: top right;
+  background-repeat: no-repeat;
+}
+.sq2_bg {
+  background: rgba(156, 105, 226, 0.1);
+  background-image: url("./img/Vector56.png");
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: 35%;
+}
+.sq3_bg {
+  background: rgba(240, 99, 184, 0.1);
+  background-image: url("./img/Ellipse61.png");
+  background-position: top right;
+  background-repeat: no-repeat;
+}
+.sq4_bg {
+  background: rgba(45, 156, 219, 0.1);
+  background-image: url("./img/Vector58.png");
+  background-position: top left;
+  background-repeat: no-repeat;
 }
 
 .three_title {
@@ -239,18 +266,25 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  margin: auto;
-  justify-content: center;
+  justify-content: space-evenly;
   width: 100%;
 }
 .square {
   display: flex;
   max-width: 50%;
-  height: 340px;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-around;
   border-radius: 50px;
-  align-content: flex-end;
+  padding-left: 240px;
+  padding-right: 240px;
+  margin-bottom: 20px;
+  padding: 40px;
 }
+.square img {
+  max-height: 245px;
+  max-width: 210px;
+}
+
 .square_details {
   display: flex;
   flex-direction: column;
@@ -278,17 +312,8 @@ body {
   align-content: center;
   font-weight: bold;
 }
-.square_LM img {
-  padding-left: 10px;
-  background: transparent;
-}
-
-.rectangle_39 {
-  height: 358px;
-  width: 442px;
-  left: 328.28515625px;
-  top: 1873.0001220703125px;
-  border-radius: 50px;
+.square_LM svg {
+  margin-left: 10px;
 }
 
 .__four {
@@ -372,7 +397,6 @@ body {
   display: flex;
   width: 100%;
   justify-content: space-between;
-  color: #bd0000;
   padding-right: 76px;
 }
 
