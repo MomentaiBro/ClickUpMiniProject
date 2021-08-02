@@ -50,7 +50,7 @@ body {
 
 .logo {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: flex-end;
 }
 
@@ -65,6 +65,7 @@ body {
   height: 20px;
   border-radius: 20px;
   background: #9c69e2;
+  margin-right: 10px;
 }
 /* .__one .Headline {
   background: transparent;
@@ -458,7 +459,7 @@ body {
 
 .footer {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   font-size: 16px;
   font-weight: lighter;
 }
