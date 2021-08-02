@@ -528,6 +528,7 @@ body {
 .social p {
   padding-bottom: 10px;
 }
+}
 
 @media (max-width: 500px) {
   .__one {
@@ -580,3 +581,35 @@ body {
     padding-right: 100px;
   }
 }
+
+@media (max-width: 1250px){
+  .__one {
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 20px;
+  }
+
+  .Headline {
+    padding-top: 40px;
+    margin-top: 50px;
+  }
+
+  .__one nav {
+    margin-left: 0;
+  }
+
+  .__two {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .__four {
+    margin-top: 200px;
+  }
+
+  .__five {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+
