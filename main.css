@@ -358,9 +358,47 @@
     rgba(156, 105, 226, 1) 100%
   );
 }
+
+.slide {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  color: #bd0000;
+  padding-right: 76px;
+}
+
+.slide span {
+  display: flex;
+  flex-direction: row;
+}
+
+.the_dots {
+  display: flex;
+  justify-content: space-evenly;
+  width: 55px;
+  height: 10px;
+  align-items: center;
+}
+.pink_dot {
+  background: #f063b8;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+}
 .dots {
   width: 5px;
   height: 5px;
   background: #fff;
   border-radius: 5px;
+}
+
+.left-arrow {
+  padding-right: 20px;
+}
+
+.polygon1 {
+  height: 14px;
+  width: 14px;
+  border: 2px solid #ffffff;
+  transform: rotate(-45deg);
 }
