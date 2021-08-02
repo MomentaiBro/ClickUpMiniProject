@@ -270,11 +270,13 @@
 }
 .square_LM img {
   padding-left: 10px;
+  background: transparent;
 }
 
-.sqONE {
-  background: #68c9ba;
-  clip-path: polygon(20% 0%, 100% 0, 100% 100%, 0% 100%);
-  height: 100%;
-  width: auto;
+.rectangle_39 {
+  height: 358px;
+  width: 442px;
+  left: 328.28515625px;
+  top: 1873.0001220703125px;
+  border-radius: 50px;
 }
